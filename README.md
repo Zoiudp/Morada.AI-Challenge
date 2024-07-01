@@ -35,7 +35,7 @@ Após a instalação dos pacotes, você pode executar a aplicação seguindo os 
     python main.py
     ```
 
-3. 2. Execute um comando curl ou use o postman para fazer uma requisição no endpoint da aplicação (http://localhost:5000/api/saque):
+3. Execute um comando curl ou use o postman para fazer uma requisição no endpoint da aplicação (http://localhost:5000/api/saque):
     ```bash
     curl -X POST -H "Content-Type: application/json" -d '{"valor": 380}' http://localhost:5000/api/saque
 
