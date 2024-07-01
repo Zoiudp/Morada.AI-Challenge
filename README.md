@@ -49,7 +49,7 @@ Após a instalação dos pacotes, você pode executar a aplicação seguindo os 
 ## Testes efetuados
 A seguir alguns exemplos de testes que foram efetuados.
 
-![Saque Corretamente efetuado seguindo a lógica proposta no desafio](./images/saque787.png)
+![Saque Corretamente efetuado seguindo a lógica proposta no desafio](./images/Saque787.png)
 ![Saque em Centavos](./images/SaqueCentavos.png)
 ![Saque impossivel de ser realizado](./images/ExchangeError.png)
 ![Campo Valor não informado](./images/NoValueField.png)
