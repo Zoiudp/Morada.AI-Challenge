@@ -53,7 +53,7 @@ A seguir alguns exemplos de testes que foram efetuados.
     Entrada:
     ```json
     {
-        "valor": "767",
+        "valor": 767,
     }
 
 
