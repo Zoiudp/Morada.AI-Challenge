@@ -49,13 +49,38 @@ Após a instalação dos pacotes, você pode executar a aplicação seguindo os 
 ## Testes efetuados
 A seguir alguns exemplos de testes que foram efetuados.
 
-![Saque Corretamente efetuado seguindo a lógica proposta no desafio](./images/Saque787.png)
-![Saque em Centavos](./images/SaqueCentavos.png)
-![Saque impossivel de ser realizado](./images/ExchangeError.png)
-![Campo Valor não informado](./images/NoValueField.png)
-![Metódo Get sendo passado na requisição](./images/GetMethod.png)
-![Html como formato](./images/NoJsonTypeError.png)
-![Entrada importuna](./images/BadInput.png)
+    Saque bem sucedido:
+    Entrada:
+    ```json
+    {
+        "valor": "767",
+    }
+    ```
+    Resposta:
+    ```json
+    [
+    {
+        "100": 7
+    },
+    {
+        "50": 1
+    },
+    {
+        "20": 0
+    },
+    {
+        "10": 1
+    },
+    {
+        "5": 1
+    },
+    {
+        "2": 1
+    }
+    ]
+    ```
+
+    Todos os testes de requisição na aplicação podem ser visualizados na pasta imagens com o printscreen de cada teste.
 
 ## Desafios e Problemas Encontrados
 Durante o desenvolvimento deste projeto, enfrentamos alguns desafios, incluindo:
