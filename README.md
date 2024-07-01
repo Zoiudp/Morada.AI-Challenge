@@ -43,7 +43,7 @@ Após a instalação dos pacotes, você pode executar a aplicação seguindo os 
 
     ![Imagem GUI Postman](./images/exemplo.png)
 
-    Lembre-se de usar o método post e o formato de arquivo como json.
+    Lembre-se de usar o método Post e o formato de arquivo como Json.
     
     ```
 ## Testes efetuados
