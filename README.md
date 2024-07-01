@@ -55,9 +55,9 @@ A seguir alguns exemplos de testes que foram efetuados.
     {
         "valor": "767",
     }
-    ```
+
+
     Resposta:
-    ```json
     [
     {
         "100": 7
@@ -78,6 +78,28 @@ A seguir alguns exemplos de testes que foram efetuados.
         "2": 1
     }
     ]
+
+    Teste 2
+    Entrada:
+    {
+        "valor": 0.01
+    }
+
+    Resposta: 
+    {
+        "erro": "Erro: ! Valor inválido, não é possível sacar valor menor que 1"
+    }
+
+    Teste 3
+    Entrada: 
+    {
+        "": 2
+    }
+
+    Resposta:
+    {
+        "erro": "Erro: 'valor'! Campo \"valor\" não encontrado no payload"
+    }
     ```
 
     Todos os testes de requisição na aplicação podem ser visualizados na pasta imagens com o printscreen de cada teste.
