@@ -12,6 +12,13 @@ def saque(valor):
         # Se o valor informado não for um número inteiro, retorna uma mensagem de erro indicando que o valor é inválido
         return jsonify({'erro': 'Valor inválido, não é possível sacar valor!'})
 
+    try:
+        if valor >= 5000:
+            raise ValueError
+    except ValueError:
+        # Se o valor informado for maior ou igual a 5000, retorna uma mensagem de erro indicando que o valor é inválido
+        return jsonify({'erro': 'Valor máximo para saque é de R$ 5000,00! Caso queira sacar um valor maior, favor entrar em contato com o banco!'})
+
     # Itera pela lista de notas disponíveis e calcula a quantidade de cada nota necessária para sacar o valor informado
     for nota in notas:
         if valor >= nota:
